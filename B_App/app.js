@@ -287,6 +287,7 @@ app.post("/request-loan-online", async (req, res) => {
 //Loans
 app.get("/loan", authenticateUserToken,async (req, res) => {
   const loanDet = await getLoanDetails(userId);
+  console.log(loanDet[0])
   res.render("loan", {
     "loanID": loanDet[0][0].loan_id,
     "amount": loanDet[0][0].loan_amount,
