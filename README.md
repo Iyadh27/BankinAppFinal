@@ -1,4 +1,4 @@
-Here's an updated and enhanced README for your Functional Banking System project:
+Here's the updated README incorporating the additional details:
 
 ---
 
@@ -21,7 +21,7 @@ This project is a comprehensive implementation of a functional banking system, d
 1. **Clone the Repository**: Start by cloning the repository to your local system. Ensure that Git is installed.
 
    ```bash
-   git clone https://github.com/Thejas0604/banking_system_G4.git
+   git clone https://github.com/Iyadh27/BankingAppFinal.git
    ```
 
 2. **Install Node Modules**: Navigate to the `B_App` directory in your terminal and install the required Node modules. Ensure that Node.js and npm are installed.
@@ -53,16 +53,26 @@ Once the server is up and running, you can access the application via your web b
 
 ## Technologies Used
 
-- **Front End**: HTML, EJS
+- **Front End**: HTML, EJS, Bootstrap
 - **Back End**: Node.js, Express.js
+- **Middleware**: JSON Web Tokens
 - **Database**: MySQL
 - **Security**: SQL Injection Prevention using Stored Procedures and Functions
 - **Data Integrity**: ACID Compliance through Transaction Management
 
 ## Features
 
-- **User Management**: Secure handling of user data with authentication mechanisms.
-- **Account Operations**: Perform standard banking operations such as deposits, withdrawals, and balance inquiries.
+### **Customer Features**:
+- **Account Management**: Customers can check their balance, manage fixed deposits, withdraw cash, and transfer funds.
+- **Loan Applications**: Apply for loans based on the amount in fixed deposits.
+- **Standing Orders**: Set and manage standing orders for recurring payments.
+
+### **Manager Features**:
+- **Loan Management**: Review, approve, or decline loan applications.
+- **Customer Management**: Create and manage customer accounts (savings/current) and search for customers using various details.
+- **Reporting**: Generate detailed reports on all transactions with customizable filters, including reports based on branches, accounts, and users.
+
+### **General Features**:
 - **Transaction Safety**: Ensures all operations are processed safely, adhering to the ACID properties.
 - **Data Normalization**: The database is normalized to the second normal form to eliminate redundancy and ensure data consistency.
 - **Security Measures**: Utilizes stored procedures and functions to prevent SQL injections and ensure data integrity.
@@ -81,3 +91,5 @@ The following is the database schema used in this project, designed to optimize 
 ---
 
 This project exemplifies how modern web applications can be securely built with a focus on maintaining data integrity and providing a seamless user experience. Feel free to contribute or fork the repository to further enhance its capabilities!
+
+---
