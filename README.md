@@ -1,5 +1,3 @@
-Here's the updated README incorporating the additional details:
-
 ---
 
 # Functional Banking System
