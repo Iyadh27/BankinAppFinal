@@ -77,7 +77,7 @@ Once the server is up and running, you can access the application via your web b
 
 ## Screenshots
 ![HomePage](https://github.com/user-attachments/assets/34ddf0cf-137f-4a00-a5de-0dd2ce566fbd)
-![Account Dashboard](https://github.com/Thejas0604/banking_system_G4/assets/109301978/d438004e-1296-4509-837f-050412a80acb)
+![SavingsDashboard](https://github.com/user-attachments/assets/31f00b23-b31c-4a7f-8c2d-2b5cc8204991)
 
 ## Database Schema
 
