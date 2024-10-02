@@ -76,8 +76,7 @@ Once the server is up and running, you can access the application via your web b
 - **Security Measures**: Utilizes stored procedures and functions to prevent SQL injections and ensure data integrity.
 
 ## Screenshots
-
-![Banking System Home](https://imgur.com/a/x1hNJDu)
+![HomePage](https://github.com/user-attachments/assets/34ddf0cf-137f-4a00-a5de-0dd2ce566fbd)
 ![Account Dashboard](https://github.com/Thejas0604/banking_system_G4/assets/109301978/d438004e-1296-4509-837f-050412a80acb)
 
 ## Database Schema
